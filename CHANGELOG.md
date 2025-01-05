@@ -1,6 +1,9 @@
 # CHANGELOG
 
 
+## v0.2.0 (2025-01-05)
+
+
 ## v0.1.0 (2025-01-05)
 
 ### Build System
@@ -29,3 +32,6 @@
 
 - Add word counting functions
   ([`fc60268`](https://github.com/ttimbers/pycounts_tt25/commit/fc60268a6ddce40c5b9471f3f536fdd66f2d30e2))
+
+- Added python semantic release
+  ([`610e6ee`](https://github.com/ttimbers/pycounts_tt25/commit/610e6ee9808006d5c757d057bd83cc8575c6eaad))
