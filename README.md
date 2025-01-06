@@ -18,13 +18,12 @@ $ pip install pycounts_tt25
 as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+import pycounts_tt25
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
-counts = count_words(file_path)
-fig = plot_words(counts, n=10)
+counts = pycounts_tt25.count_words(file_path)
+fig = pycounts_tt25.plot_words(counts, n=10)
 plt.show()
 ```
 
