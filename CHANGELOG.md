@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.4.0 (2025-01-06)
+
+### Features
+
+- Added codecov token
+  ([`88a5c10`](https://github.com/ttimbers/pycounts_tt25/commit/88a5c107fb60d3d775fb2c67ed724e4d5e6e7628))
+
+
 ## v0.3.0 (2025-01-06)
 
 ### Features
