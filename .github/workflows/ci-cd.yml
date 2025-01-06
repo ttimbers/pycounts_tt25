@@ -30,7 +30,6 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: ttimbers/pycounts_tt25
 
       - name: Build documentation
         run: poetry run make html --directory docs/
