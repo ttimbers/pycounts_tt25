@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.3.0 (2025-01-06)
+
+### Features
+
+- Added badges to README
+  ([`a5d0de9`](https://github.com/ttimbers/pycounts_tt25/commit/a5d0de9b3cbdf04655c99d35bb514ab1defb5ab1))
+
+
 ## v0.2.0 (2025-01-05)
 
 
