@@ -1,5 +1,9 @@
 # pycounts_tt25
 
+[![Documentation Status](https://readthedocs.org/projects/pycounts-tt25/badge/?version=latest)](https://pycounts-tt25.readthedocs.io/en/latest/?badge=latest)
+
+[![codecov](https://codecov.io/gh/ttimbers/pycounts_tt25/graph/badge.svg?token=788HY26XUG)](https://codecov.io/gh/ttimbers/pycounts_tt25)
+
 Calculate word counts in a text file!
 
 ## Installation
