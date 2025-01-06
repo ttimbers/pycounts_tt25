@@ -27,9 +27,10 @@ jobs:
         run: poetry run pytest tests/ --cov=pycounts_tt25 --cov-report=xml
 
       - name: Use Codecov to track coverage
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
         with:
-          files: ./coverage.xml   # coverage report
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: ttimbers/pycounts_tt25
 
       - name: Build documentation
         run: poetry run make html --directory docs/
