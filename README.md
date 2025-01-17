@@ -31,6 +31,23 @@ plt.show()
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
+## Developer notes
+
+Tests (both unit and visual regression tests) should be run using `pytest`:
+
+```bash
+pytest --mpl \
+    --mpl-baseline-path=tests/baseline \
+    --mpl-results-path=tests/results \
+    --mpl-generate-summary=html
+```
+
+Coverage can be assessed via `pytest-cov`:
+
+```bash
+pytest --cov-branch --cov=tests
+```
+
 ## License
 
 `pycounts_tt25` was created by Tiffany Timbers. It is licensed under the terms of the MIT license.
