@@ -33,20 +33,8 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## Developer notes
 
-Tests (both unit and visual regression tests) should be run using `pytest`:
-
-```bash
-pytest --mpl \
-    --mpl-baseline-path=tests/baseline \
-    --mpl-results-path=tests/results \
-    --mpl-generate-summary=html
-```
-
-Coverage can be assessed via `pytest-cov`:
-
-```bash
-pytest --cov-branch --cov=tests
-```
+For information on how to contribute your developments back to the `pycounts_tt25` Python package, see
+[`CONTRIBUTING.md`](https://github.com/ttimbers/pycounts_tt25/blob/main/CONTRIBUTING.md)
 
 ## License
 

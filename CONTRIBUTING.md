@@ -43,6 +43,13 @@ If you are proposing a feature:
 Ready to contribute? Here's how to set up `pycounts_tt25` for local development.
 
 1. Download a copy of `pycounts_tt25` locally.
+2. Create and activate a conda environment for `pycounts_tt25`:
+
+    ```bash
+    $ conda create -n pycounts_tt25 python=3.11
+    $ conda activate pycounts_tt25
+    ```
+
 2. Install `pycounts_tt25` using `poetry`:
 
     ```console
@@ -52,12 +59,29 @@ Ready to contribute? Here's how to set up `pycounts_tt25` for local development.
 3. Use `git` (or similar) to create a branch for local development and make your changes:
 
     ```console
-    $ git checkout -b name-of-your-bugfix-or-feature
+    $ git switch -c name-of-your-bugfix-or-feature
     ```
 
-4. When you're done making changes, check that your changes conform to any code formatting requirements and pass any tests.
+4. When you're done making changes, check that your changes conform to any code formatting requirements and pass any tests (see section on how to run tests below).
 
 5. Commit your changes and open a pull request.
+
+## Running tests
+
+Tests (both unit and visual regression tests) should be run using `pytest`:
+
+```bash
+pytest --mpl \
+    --mpl-baseline-path=tests/baseline \
+    --mpl-results-path=tests/results \
+    --mpl-generate-summary=html
+```
+
+Coverage can be assessed via `pytest-cov`:
+
+```bash
+pytest --cov-branch --cov=tests
+```
 
 ## Pull Request Guidelines
 
