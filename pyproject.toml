@@ -21,6 +21,7 @@ sphinx-rtd-theme = "^3.0.2"
 python-semantic-release = "^9.15.2"
 pytest-mpl = "^0.17.0"
 pydata-sphinx-theme = "^0.16.1"
+furo = "^2024.8.6"
 
 [tool.semantic_release]
 version_toml = [
