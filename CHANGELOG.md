@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.0 (2025-01-22)
+
+### Features
+
+- Added author
+  ([`8a75a9c`](https://github.com/ttimbers/pycounts_tt25/commit/8a75a9cad4c39c1e52e3a98c6d2ff2432b4829a1))
+
+
 ## v0.5.0 (2025-01-22)
 
 ### Features
