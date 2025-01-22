@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.5.0 (2025-01-22)
+
+### Features
+
+- Added automated semantic version bumping
+  ([`3538a2e`](https://github.com/ttimbers/pycounts_tt25/commit/3538a2ea9cffabe1e046cc5141296dd88d90ebf9))
+
+
 ## v0.4.0 (2025-01-06)
 
 ### Features
