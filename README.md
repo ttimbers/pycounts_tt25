@@ -1,6 +1,6 @@
 # pycounts_tt25
 
-Author: Tiffany Timbers
+Author: Tiffany A. Timbers
 
 [![Documentation Status](https://readthedocs.org/projects/pycounts-tt25/badge/?version=latest)](https://pycounts-tt25.readthedocs.io/en/latest/?badge=latest)
 
