@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.1 (2025-01-27)
+
+### Bug Fixes
+
+- Update author name to include initials
+  ([`8bae5d6`](https://github.com/ttimbers/pycounts_tt25/commit/8bae5d670d0acc7f939844f8c54aac80fdbdc127))
+
+
 ## v0.6.0 (2025-01-22)
 
 ### Features
